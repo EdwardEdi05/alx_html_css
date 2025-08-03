@@ -1,0 +1,48 @@
+/*make the body a flex container stacking its children vertically*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /*Ensure it takes full viewport height*/
+    margin: 0; /*Remove default browser margins*/
+}
+
+/* Make main a flex container arranging its children in a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /*Allow main to expand and fill available space*/
+}
+
+/* Article takes 2/3 of main’s width */
+article {
+    flex: 1;
+    overflow-y: auto; /* Vertical scrollbar when content overflows */
+}
+
+
+/* Optional: Styling to visualize sections (not required) */
+header, footer {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+}
+
+h1 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+article {
+    background-color: #d0e6ff;
+    padding: 10px;
+}
+
+aside {
+    background-color: #ffe6d0;
+    padding: 10px;
+}
+
+main {
+    min-height: 0;  /* Ensure flex children can shrink properly */
+}
