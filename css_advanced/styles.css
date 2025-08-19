@@ -1,0 +1,179 @@
+/* HEADER */
+header {
+  background: url("images/object.png") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  min-height: 100vh; /* makes it full-screen like in your Figma */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hero {
+  margin-top: 4rem;
+}
+
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+     color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 8rem 2rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  background: #c271ff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Pros Section */
+.pros {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.pros-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.pro img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Quote */
+.quote {
+  background: #c271ff;
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.quote img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Tutorials */
+.tutorials {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tutorial img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Membership */
+.membership {
+  background: #071629;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* FAQ */
+.faq {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background: #071629;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
